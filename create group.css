@@ -1,0 +1,230 @@
+/* desing 1   */
+body{
+    background-color: #A4D2F0;
+}
+.div-function{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 20%;
+    background-color:#222242 ;
+    
+    }
+    /* ADMIN */
+    .photo_admin{
+    position: absolute;
+    top: 6%;
+    left: 1%;
+    height: 90px;
+    width: 90px;
+    
+    }
+    .admin_name{
+    position: absolute;
+    top: 10%;
+    left: 8%;
+    font-size: 18px;
+    color: azure;
+    }
+    /* groups */
+    .g-img{
+        position: absolute;
+        top: 30%;
+        left: 3%;
+        height: 30px;
+        width: 30px;
+    }
+    .groups{
+        position: absolute;
+        top: 31%;
+        left: 6%;
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    }
+    .groups:hover{
+        cursor: pointer;
+    }
+    /* teacher*/
+    .t-img{
+        position: absolute;
+        top: 40%;
+        left: 3%;
+        height: 30px;
+        width: 30px;
+    }
+    .teacher{
+        position: absolute;
+        top: 41%;
+        left: 6%;
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    }
+    .teacher:hover{
+        cursor: pointer;
+    }
+    /* student*/
+    .st-img{
+        position: absolute;
+        top: 50%;
+        left: 3%;
+        height: 30px;
+        width: 30px;
+    }
+    .student{
+        position: absolute;
+        top: 51%;
+        left: 6%;
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    }
+    .student:hover{
+        cursor: pointer;
+    }
+    /* files*/
+    .f-img{
+        position: absolute;
+        top: 60%;
+        left: 3%;
+        height: 30px;
+        width: 30px;
+    }
+    .file{
+        position: absolute;
+        top: 61%;
+        left: 6%;
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    }
+    .file:hover{
+        cursor: pointer;
+    }
+    /*  admin */
+    .div_admin{
+    position: absolute;
+    top:80%;
+    left: 3%;
+    width: 200px;
+    height: 120px;
+    background-color: #D9D9D9;
+    border-radius: 5px;
+    
+    }
+    .img_admin{
+    
+        position: absolute;
+        top:70%;
+        left: 4%;
+        width: 160px;
+        height: 140px; 
+    }
+    .bt-admin{
+        position: absolute;
+        top:91%;
+        left: 6%;
+        width: 90px;
+        height: 30px; 
+    border-radius: 15px;
+    background-color: aquamarine;
+    border: none;
+    margin-left: 5px;
+    }
+    .bt-admin:hover{
+        box-shadow: 4px 4px 4px rgb(135, 134, 134); 
+    cursor: pointer; 
+    }
+    
+    
+    /* desing 2*/
+
+    .create-g{
+position: absolute;
+top: 5%;
+left: 30%;
+width: 60%;
+height: 90%;
+background-color: rgb(255, 255, 255);
+border-radius: 10px;
+box-shadow: 4px 4px 4px rgb(135, 134, 134); 
+
+    }
+    .create-g-lable{
+        position: absolute;
+        top: 15%;
+        left: 55%;
+font-size: 35px;
+
+    }
+    .create-img-g{
+
+        position: absolute;
+        top: 25%;
+        left: 57%;
+        height: 100px;
+        width: 140px;
+
+    }
+    .create-img-g:hover{
+        position: absolute;
+        top: 24%;
+        left: 57%;
+        
+    }
+    .g-name{
+        position: absolute;
+        top: 46%;
+        left: 50%;
+        width: 350px;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid #060606;
+
+    }
+    .img-g-name{
+        position: absolute;
+        top: 45%;
+        left: 47%;
+        width: 30px;
+        height: 30px;
+    }
+    .t-name{
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        width: 350px;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid #060606;
+    }
+    .img-g-tr{
+
+        position: absolute;
+        top: 58%;
+        left: 47%;
+        width: 30px;
+        height: 30px; 
+    }
+    .bt-save{
+        position: absolute;
+        top: 73%;
+        left: 50%;
+        width: 400px;
+        height: 40px;
+        background-color: #222242;
+        color: ivory;
+border-radius: 20px;
+
+
+    }
+    .bt-save:hover{
+        box-shadow: 4px 4px 4px rgb(135, 134, 134); 
+        font-weight: bold;
+    }

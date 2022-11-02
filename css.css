@@ -1,0 +1,223 @@
+
+body{
+    background-color:#222242; 
+}
+/* circle div */
+
+.divblue{
+
+height:705px;
+background-color: #A4D2F0;
+width: 20%;
+
+}
+.circle{
+
+background-color: #A4D2F0;
+height: 120px;
+width: 120px;
+border-radius: 50%;
+position: absolute;
+top:2%;
+left: 85%;
+box-shadow: 7px 7px 6px rgb(16, 16, 16);
+}
+.circle1 {
+background-color: #A4D2F0;
+height: 70px;
+width: 70px;
+border-radius: 50%;
+position: absolute;
+top:20%;
+left: 50%;
+box-shadow: 7px 7px 6px rgb(16, 16, 16);
+
+}
+.circle2 {
+
+background-color: #A4D2F0;
+height: 350px;
+width: 350px;
+border-radius: 50%;
+position: absolute;
+top:32%;
+left: 63%;
+box-shadow: 7px 7px 6px rgb(16, 16, 16);
+}
+.circle3 {
+
+    background-color: #A4D2F0;
+height: 70px;
+width: 70px;
+border-radius: 50%;
+position: absolute;
+top:80%;
+left: 50%;
+box-shadow: 7px 7px 6px rgb(16, 16, 16);
+}
+.circle4 {
+
+    background-color: #A4D2F0;
+height: 70px;
+width: 70px;
+border-radius: 50%;
+position: absolute;
+top:80%;
+left: 80%;
+box-shadow: 7px 7px 6px rgb(16, 16, 16);
+}
+
+.circle4 {
+
+    background-color: #A4D2F0;
+height: 70px;
+width: 70px;
+border-radius: 50%;
+position: absolute;
+top:80%;
+left: 85%;
+box-shadow: 7px 7px 6px rgb(16, 16, 16);
+}
+.circle5 {
+
+    background-color: #A4D2F0;
+height: 20px;
+width: 20px;
+border-radius: 50%;
+position: absolute;
+top:10%;
+left: 55%;
+box-shadow: 7px 7px 6px rgb(16, 16, 16);
+}
+.circle6 {
+
+    background-color: #A4D2F0;
+height: 90px;
+width: 90px;
+border-radius: 50%;
+position: absolute;
+top:50%;
+left: 40%;
+z-index: 2;
+box-shadow: 7px 7px 6px rgb(16, 16, 16);
+}
+.circle7 {
+
+    background-color: #A4D2F0;
+height: 20px;
+width: 20px;
+border-radius: 50%;
+position: absolute;
+top:75%;
+left: 90%;
+box-shadow: 7px 7px 6px rgb(16, 16, 16);
+}
+/* login form */
+.loginBK{
+
+background-color: rgb(255, 255, 255);
+height: 650px;
+width: 500px;
+border-radius: 5%;
+position: absolute;
+top: 5%;
+left: 10%;
+z-index: 1;
+
+}
+.welcome-lable{
+font-size: 45px;
+position: absolute;
+top: 25%;
+left: 20%;
+}
+
+.text{
+
+    position: absolute;
+    top: 55%;
+    left: 25%;
+    width: 250px;
+    border: none;
+    border-bottom: 1px solid #494949;  
+    box-sizing: border-box;
+    transition:0.5;
+    outline: none;
+}
+.text:hover{
+
+   border-bottom: 1px solid #A4D2F0;
+}
+
+.imgtetx{
+height: 20px;
+width: 20px;
+position: absolute;
+top: 55%;
+left: 14%;
+
+
+}
+
+.password{
+    position: absolute;
+    top: 65%;
+    left: 25%;
+    width: 250px;
+    border: none;
+    border-bottom: 1px solid #494949; 
+    outline: none; 
+}
+.imgpass{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 65%;
+    left: 14%; 
+}
+.button{
+
+background-color: #222242;
+position: absolute;
+top: 75%;
+left: 22%;
+width: 270px;
+height: 35px;
+border-radius: 15px;
+color: rgb(252, 254, 254);
+
+}
+.button:hover{
+
+ box-shadow: 5px 5px 8px #494949;
+}
+
+.labelaccount{
+    position: absolute;
+    top: 90%;
+    left: 25%;
+    font-size: 20px;
+
+}
+
+.singup{
+
+color: black;
+text-decoration: none;
+font-weight: bold;
+}
+.singup:hover{
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+}
+/*the icon*/
+.imagelogo{
+height: 400px;
+width: 400px;
+position: absolute;
+top: 28%;
+left: 62%;
+
+
+}

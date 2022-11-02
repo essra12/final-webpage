@@ -1,0 +1,66 @@
+
+
+
+<!DOCTYPE html>
+<head>
+    <title>login</title>
+    <meta name="descreption " content=" " />
+    <link rel="stylesheet" href="css.css"/>
+    <html>
+<body >
+<!-- check inputs -->
+
+<script>
+    function check_Enter() {
+    var NAME = document.getElementById("textid").value;
+    var pass = document.getElementById("pass").value;
+    if(NAME==""){
+    alert("please enter name  ");
+    return false
+    }
+    else if(pass==""){
+    alert("    please enter password ");
+    return false
+    }
+    }
+</script>
+
+
+
+
+
+<!-- circle for background  -->
+  <div class="divblue"> </div>
+  <div class="circle"> </div>  
+  <div class="circle1"> </div> 
+  <div class="circle2"> </div> 
+  <div class="circle3"> </div> 
+  <div class="circle4"> </div>
+  <div class="circle5"> </div>
+  <div class="circle6"> </div>
+  <div class="circle7"> </div>
+
+  <!-- login form -->
+<form id="form1">
+  <div class="loginBK">
+  <label class="welcome-lable"> <b>Welocme</b> <br> Back !</label>
+  <div class="input-text">
+
+     <input  id="textid" class="text" type="text" name="usertext" placeholder="enter name" />
+     <img class="imgtetx" src="pic/T.png"/>
+     </div>
+     <div class="input-texts">
+     <input  id="pass" class="password" type="password" placeholder="password" name=""  />
+     <input  id="bt" class="button " type="button" value="Login" onclick="check_Enter()"/>
+     <img class="imgpass" src="pic/pss.png"/>
+     </div>
+     <label class="labelaccount"> Create a new account  <a class="singup" href="Singup as student.html"> SingUp </a></label>
+  </div>
+</form>
+
+  <!-- the icon-->
+  <img class="imagelogo" src="pic/logo.png" alt="no image"/>
+
+</body>
+</html>
+</head>

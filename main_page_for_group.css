@@ -1,0 +1,218 @@
+
+.main_group{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+width: 100%;
+height: 32%;
+box-shadow: 7px 7px 7px rgb(135, 134, 134);
+background-color: rgb(255, 255, 255);
+
+
+}
+.hello_lable{
+position: absolute;
+top: 24%;
+left: 40%;
+font-weight: 600;
+font-size: 30px;
+
+}
+.search{
+
+    position: absolute;
+    top: 49%;
+    left: 33%;
+width: 320px;
+height: 35px;
+border-radius: 5px;
+box-shadow: 4px 4px 4px rgb(135, 134, 134); ;
+border: none;
+background-color:#f4faf3;
+}
+.bt_Join{
+
+    position: absolute;
+    top: 49%;
+    left: 52%;
+    background-color: #222242;
+width: 70px;
+height: 35px;
+border-radius: 50px;
+box-shadow: 4px 4px 4px rgb(135, 134, 134); 
+color: beige;
+}
+.bt_Join:hover{
+    width: 71px;
+    height: 36px; 
+    font-weight: bold;
+}
+.divst_img{
+background-color: #222242;
+width: 20%;
+height:100%;
+position: absolute;
+top: 0%;
+left: 80%;
+border-radius:5px ;
+
+}
+.student_img{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+}
+
+/* Groups*/
+.lable_groups{
+font-size: 40px;
+font-weight: 500;
+position: absolute;
+top: 41%;
+left: 20%;
+
+
+}
+
+/*  JAVA*/
+.g_one{
+    position: absolute;
+    top: 55%;
+    left: 20%;
+height: 120px;
+width: 300px;
+background-color: #222242;
+border-radius: 4%;
+
+}
+.g_one:hover{
+
+    position: absolute;
+    top: 54%;
+    left: 20%;  
+    box-shadow: 4px 4px 4px rgb(135, 134, 134); 
+}
+.java{
+    position: absolute;
+    top: 59%;
+    left: 21%;
+    font-size: 25px;
+    color: rgb(255, 255, 255);   
+}
+.img_java{
+height: 80px;
+width: 80px;
+position: absolute;
+top: 58%;
+left: 31%;
+
+}
+/* PHP */
+
+.g_TWO{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+height: 120px;
+width: 300px;
+background-color: #aad7f2;
+border-radius: 4%;
+
+}
+
+.g_TWO:hover{
+
+    position: absolute;
+    top: 54%;
+    left: 50%;  
+    box-shadow: 4px 4px 4px rgb(135, 134, 134); 
+}
+
+.PHP{
+    position: absolute;
+    top: 59%;
+    left: 51%;
+    font-size: 25px;
+    color: rgb(50, 50, 50);   
+}
+
+.img_PHP{
+height: 80px;
+width: 80px;
+position: absolute;
+top: 58%;
+left: 62%;
+
+}
+
+/* data structor */
+
+.g_Thtee{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+height: 120px;
+width: 300px;
+background-color: #aad7f2;
+border-radius: 4%;
+
+}
+.g_Thtee:hover{
+
+    position: absolute;
+    top: 74%;
+    left: 50%;  
+    box-shadow: 4px 4px 4px rgb(135, 134, 134); 
+}
+.Data_Structure{
+    position: absolute;
+    top: 79%;
+    left: 51%;
+    font-size: 25px;
+    color: rgb(50, 50, 50);   
+}
+.img_DS{
+height: 80px;
+width: 80px;
+position: absolute;
+top: 78%;
+left: 62%;
+
+}
+
+/* C# */
+
+.g_four{
+    position: absolute;
+    top: 75%;
+    left: 20%;
+height: 120px;
+width: 300px;
+background-color: #aad7f2;
+border-radius: 4%;
+
+}
+.g_four:hover{
+
+    position: absolute;
+    top: 74%;
+    left: 20%;  
+    box-shadow: 4px 4px 4px rgb(135, 134, 134); 
+}
+.c{
+    position: absolute;
+    top: 79%;
+    left: 21%;
+    font-size: 25px;
+    color: rgb(50, 50, 50);   
+}
+.img_c{
+height: 80px;
+width: 80px;
+position: absolute;
+top: 78%;
+left: 32%;
+
+}

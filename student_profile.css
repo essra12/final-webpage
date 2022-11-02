@@ -1,0 +1,149 @@
+
+
+body{
+    background-color: #A4D2F0;
+}
+
+.st_div{
+position: absolute;
+top: 5%;
+left: 10%;
+background-color: #222242;
+width: 40%;
+height: 90%;
+border-radius: 15px;
+box-shadow: 4px 4px 4px  rgb(101, 101, 101);
+z-index: 2;
+}
+.div_Inf_st{
+   position: absolute;
+    top: 5%;
+    left: 49%;
+    background-color: #ffffff;
+    width: 40%;
+    height: 90%;
+    border-radius: 10px;
+    box-shadow: 7px 7px 6px  rgb(101, 101, 101);
+z-index: 1;
+}
+/* student information */
+.st_ID{
+
+    position: absolute;
+    top: 25%;
+    left: 49%;
+    font-size: 30px;
+
+
+}
+.img-id{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 25%;
+    left: 35%;
+}
+/* name */
+.st_name{
+
+    position: absolute;
+    top: 35%;
+    left: 49%;
+    font-size: 30px;
+
+
+}
+.img-name{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+}
+/* specialization */
+.st_spe{
+
+    position: absolute;
+    top: 45%;
+    left: 49%;
+    font-size: 30px;
+
+
+}
+.img-spe{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 45%;
+    left: 35%;
+}
+/* password */
+.st_pass{
+
+    position: absolute;
+    top: 55%;
+    left: 49%;
+    font-size: 30px;
+
+
+}
+.img-pass{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 55%;
+    left: 35%;
+}
+.bt_edit{
+
+    position: absolute;
+    top: 75%;
+    left: 30%;
+background-color: #222242;
+color: beige;
+border-radius: 10px;
+width: 120px;
+height: 39px;
+border: none;
+}
+.bt_edit:hover{
+    box-shadow: 4px 4px 4px rgb(135, 134, 134); 
+cursor: pointer;
+}
+.bt_logout{
+    position: absolute;
+    top: 75%;
+    left: 60%;
+background-color: crimson;
+color: beige;
+border-radius: 10px;
+width: 120px;
+height: 39px;
+border: none;
+}
+.bt_logout:hover{
+    box-shadow: 4px 4px 4px rgb(135, 134, 134); 
+cursor: pointer;
+
+}
+.edit_photo{
+    position: absolute;
+    top: 25%;
+    left: 33%;
+    width: 220px;
+    height: 220px;
+
+}
+.edit_link
+{
+    position: absolute;
+    top: 62%;
+    left: 42%;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 600;
+}
+.edit_link:hover{
+    cursor: pointer;
+
+}

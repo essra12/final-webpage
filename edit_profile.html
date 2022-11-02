@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<head>
+<title>Edite_stu</title>
+<meta name="descreption " content=" " />
+<link rel="stylesheet" href="edit_profile.css"/>
+</head>
+<html>
+<body>
+
+    <form>
+
+        <!-- img_student  -->
+        <div class="st_div">
+        <img class="st_img" />
+        <!-- edit photo -->
+        <img class="edit_photo" src="pic/pic4.png"/>
+        <a class="edit_link" > Edit Photo </a>
+        </div>
+        
+        <!-- student infornation -->
+        <!--name -->
+        <div class="div_Inf_st">
+        
+        <!--ID -->
+        <input  id="id" class="st_ID" type="text" placeholder="ID"/>
+        <img class="img-id" src="pic/id.png" />
+         <!--name -->
+         <input id="name" class="st_name" type="text" placeholder="Full Name"/>
+        <img class="img-name" src="pic/R.png" />
+        <!--specialization -->
+        <input id="spe" class="st_spe" type="text" placeholder=" specialization"/>
+        <img class="img-spe" src="pic/pc.png" />
+        <!--password -->
+        <input id="pass" class="st_pass" type="text" placeholder=" password"/>
+        <img class="img-pass" src="pic/pss.png" />
+         <!--confirm password -->
+         <input id="cof-pass" class="confirm_password" type="text" placeholder=" confirm password"/>
+         <img class="img-pass1" src="pic/pss.png" />
+        
+
+        
+        <!-- button Edit -->
+        <a >
+        <input class="bt_save" type="button" value="SAVE" onclick="check__Enter()"/></a>
+        </div>
+        
+        
+        </form>
+
+        <!-- check enter -->
+<script>
+
+    function check__Enter() {
+    const id = document.getElementById("id").value;
+    const NAME = document.getElementById("name").value;
+    const pass = document.getElementById("pass").value;
+    const pass2=document.getElementById("cof-pass").value;
+    const specialization=document.getElementById("spe").value;
+  
+    if(id==""){
+    alert(" pleas enter ID");
+    return false
+    }
+    if(NAME==""){
+    alert(" pleas enter name");
+    return false
+    }
+    
+    if(specialization==""){
+    alert(" pleas enter specialization ");
+    return false
+    }
+    else if(pass==""){
+    alert("    pleas enter password ");
+    return false
+    
+    }
+    if(pass2==""){
+    alert(" pleas enter password again");
+    return false
+    }
+  if(pass != pass2){
+  alert(" the password is not equal ");
+  return false
+    }
+    }
+    </script>
+  
+
+</body>
+
+
+
+</html>

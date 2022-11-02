@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<head>
+    <title>create group </title>
+    <meta name="descreption " content=" " />
+    <link rel="stylesheet" href="create group.css"/>
+    </head>
+    <html>
+
+<body>
+<!-- form 1 -->
+<form class="form1">
+<div class="div-function"></div>
+<!-- admi -->
+<img class="photo_admin" src="pic/Asset 2.png"/>
+<label class="admin_name">   Admin name <br> 172038 </label>
+
+<!-- tools  -->
+<a class="groups" href="main-group-page.html" > Groups</a>
+<img class="g-img" src="pic/gr.png"/>
+
+<a class="teacher" href="teachers.html" > Teacher</a>
+<img class="t-img" src="pic/tr.png"/>
+
+<a class="student" href="students.html" > Student</a>
+<img class="st-img" src="pic/st.png"/>
+
+<a class="file" href="files.html" > Files</a>
+<img class="f-img" src="pic/file.png"/>
+
+<div class="div_admin"></div>
+<img class="img_admin" src="pic/admin.png"/>
+<input class="bt-admin" type="button" value="Admin" />
+</form>
+
+
+<!-- desing 2  -->
+
+
+<div class="create-g"></div>
+<label class="create-g-lable">Create Group</label>
+
+<img class="create-img-g" src="pic/add.png" />
+
+<!-- input data -->
+
+<input id="name" class="g-name" type="text" placeholder="Group Name"/>
+<img class="img-g-name" src="pic/gr2.png"/>
+<select class="t-name">
+    <option >essra</option>
+    <option> ali</option>
+</select>
+<img class="img-g-tr" src="pic/T.png"/>
+
+<input class="bt-save" type="button" value="Save" onclick="check_Enter()"/>
+
+<!-- check enter -->
+<script>
+
+    function check_Enter() {
+    const NAME = document.getElementById("name").value;
+    if(NAME==""){
+    alert(" pleas enter Group-name");
+    return false
+    }
+    }
+    </script>
+</body>
+</html>

@@ -1,0 +1,280 @@
+
+body{
+    background-color:#222242;
+   
+   
+}
+
+.divblue{
+
+height:705px;
+background-color: #A4D2F0;
+width: 20%;
+
+}
+/*   desing for background bage  */
+.circle{
+
+    background-color: #A4D2F0;
+height: 120px;
+width: 120px;
+border-radius: 50%;
+position: absolute;
+top:2%;
+left: 85%;
+box-shadow: 7px 7px 6px rgb(16, 16, 16);
+}
+.circle1 {
+
+    background-color: #A4D2F0;
+height: 70px;
+width: 70px;
+border-radius: 50%;
+position: absolute;
+top:20%;
+left: 50%;
+box-shadow: 7px 7px 6px rgb(16, 16, 16);
+
+}
+.circle2 {
+
+    background-color: #A4D2F0;
+height: 350px;
+width: 350px;
+border-radius: 50%;
+position: absolute;
+top:32%;
+left: 63%;
+box-shadow: 7px 7px 6px rgb(16, 16, 16);
+}
+.circle3 {
+
+    background-color: #A4D2F0;
+height: 70px;
+width: 70px;
+border-radius: 50%;
+position: absolute;
+top:80%;
+left: 50%;
+box-shadow: 7px 7px 6px rgb(16, 16, 16);
+}
+.circle4 {
+
+    background-color: #A4D2F0;
+height: 70px;
+width: 70px;
+border-radius: 50%;
+position: absolute;
+top:80%;
+left: 80%;
+box-shadow: 7px 7px 6px rgb(16, 16, 16);
+}
+
+.circle4 {
+
+    background-color: #A4D2F0;
+height: 70px;
+width: 70px;
+border-radius: 50%;
+position: absolute;
+top:80%;
+left: 85%;
+box-shadow: 7px 7px 6px rgb(16, 16, 16);
+}
+.circle5 {
+
+    background-color: #A4D2F0;
+height: 20px;
+width: 20px;
+border-radius: 50%;
+position: absolute;
+top:10%;
+left: 55%;
+box-shadow: 7px 7px 6px rgb(16, 16, 16);
+}
+.circle6 {
+
+    background-color: #A4D2F0;
+height: 90px;
+width: 90px;
+border-radius: 50%;
+position: absolute;
+top:50%;
+left: 40%;
+z-index: 2;
+box-shadow: 7px 7px 6px rgb(16, 16, 16);
+}
+.circle7 {
+
+    background-color: #A4D2F0;
+height: 20px;
+width: 20px;
+border-radius: 50%;
+position: absolute;
+top:75%;
+left: 90%;
+box-shadow: 7px 7px 6px rgb(16, 16, 16);
+}
+
+/*   singup form  */
+
+.loginBK{
+
+background-color: rgb(255, 255, 255);
+height: 650px;
+width: 500px;
+border-radius: 5%;
+position: absolute;
+top: 5%;
+left: 10%;
+z-index: 1;
+
+}
+/*  */
+
+.singup_lable{
+
+font-size: 35px;
+position: absolute;
+top: 20%;
+left: 20%;
+
+}
+
+.ID{
+position: absolute;
+top: 45%;
+left: 30%;
+border: none;
+border-bottom: 1px solid #494949;
+box-sizing: border-box;
+outline: none;
+width: 250px;
+}
+.imgID{
+height: 20px;
+width: 20px;
+position: absolute;
+top: 44%;
+left: 22%;
+
+
+}
+
+.name{
+    position: absolute;
+    top: 52%;
+    left: 30%;
+    border: none;
+    border-bottom: 1px solid #494949;
+    box-sizing: border-box;
+    outline: none;
+    width: 250px;
+    }
+    .imgname{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 51%;
+    left: 22%;
+    
+    
+    }
+    .password{
+        position: absolute;
+        top: 59%;
+        left: 30%;
+        border: none;
+        border-bottom: 1px solid #494949;
+        box-sizing: border-box;
+        outline: none;
+        width: 250px;
+        }
+        .imgpass{
+        height: 20px;
+        width: 20px;
+        position: absolute;
+        top: 59%;
+        left: 22%;
+        
+        
+        }
+        .confirm_password{
+
+            position: absolute;
+        top: 67%;
+        left: 30%;
+        border: none;
+        border-bottom: 1px solid #494949;
+        box-sizing: border-box;
+        outline: none;
+        width: 250px; 
+        }
+        .imgconf{
+            height: 20px;
+            width: 20px;
+            position: absolute;
+            top: 66%;
+            left: 22%;
+            
+            
+            }
+            .specialization{
+
+                position: absolute;
+                top: 74%;
+                left: 30%;
+                border: none;
+                border-bottom: 1px solid #494949;
+                box-sizing: border-box;
+                outline: none;
+                width: 250px; 
+            }
+            .imgsp{
+                height: 20px;
+                width: 20px;
+                position: absolute;
+                top: 73%;
+                left: 22%;
+                
+                
+                }
+                .button{
+
+                    position: absolute;
+                    top: 85%;
+                    left: 22%;
+                    width: 310px;
+                    height: 34px;
+                    background-color: #222242;
+                    color: blanchedalmond;
+                    border-radius: 15px;
+                    text-align: center;
+                }
+                .button:hover{
+
+                    box-shadow: 5px 5px 8px #494949;
+                }
+                .login_link{
+                    position: absolute;
+                    top: 94%;
+                    left: 48%;
+                    text-decoration: none;
+                    font-size: 20px;
+                    color: black;
+
+                }
+                .login_link:hover{
+                    text-decoration: underline;
+                    font-weight: 700;
+                    cursor: pointer;
+                   
+                }
+              
+              .imagelogo{
+                height: 400px;
+width: 400px;
+position: absolute;
+top: 26%;
+left: 160%;
+              }

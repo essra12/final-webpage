@@ -1,0 +1,161 @@
+
+
+body{
+    background-color: #A4D2F0;
+}
+
+.st_div{
+position: absolute;
+top: 5%;
+left: 10%;
+background-color: #222242;
+width: 40%;
+height: 90%;
+border-radius: 15px;
+box-shadow: 4px 4px 4px  rgb(101, 101, 101);
+z-index: 2;
+}
+.div_Inf_st{
+   position: absolute;
+    top: 5%;
+    left: 49%;
+    background-color: #ffffff;
+    width: 40%;
+    height: 90%;
+    border-radius: 10px;
+    box-shadow: 7px 7px 6px  rgb(101, 101, 101);
+z-index: 1;
+}
+/* student information */
+.st_ID{
+
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    font-size: 30px;
+border: none;
+outline: none;
+border-bottom: 1px solid #292929;
+
+}
+.img-id{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 25%;
+    left: 15%;
+}
+/* name */
+.st_name{
+
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    font-size: 30px;
+
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #292929;
+}
+.img-name{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 35%;
+    left: 15%;
+}
+/* specialization */
+.st_spe{
+
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #292929;
+
+}
+.img-spe{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 45%;
+    left: 15%;
+}
+/* password */
+.st_pass{
+
+    position: absolute;
+    top: 55%;
+    left: 25%;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #292929;
+
+}
+.img-pass{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 55%;
+    left: 15%;
+}
+.bt_save{
+
+    position: absolute;
+    top: 85%;
+    left: 30%;
+background-color: #222242;
+color: beige;
+border-radius: 15px;
+width: 280px;
+height: 40px;
+}
+.bt_save:hover{
+    box-shadow: 4px 4px 4px rgb(135, 134, 134); 
+cursor: pointer;
+}
+.confirm_password{
+    position: absolute;
+    top: 65%;
+    left: 25%;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #292929;
+}
+.img-pass1{
+
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 65%;
+    left: 15%;  
+}
+
+
+
+
+.edit_photo{
+    position: absolute;
+    top: 25%;
+    left: 33%;
+    width: 220px;
+    height: 220px;
+
+}
+.edit_link
+{
+    position: absolute;
+    top: 62%;
+    left: 42%;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 600;
+}
+.edit_link:hover{
+    cursor: pointer;
+
+}
